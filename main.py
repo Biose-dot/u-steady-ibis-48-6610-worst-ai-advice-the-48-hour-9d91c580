@@ -8,7 +8,7 @@ Terrible advice delivered with total confidence: destroy production to test the 
 """
 import os
 
-ENTRY = 'Just delete the database — the backups are a crutch, and real engineers rebuild from memory.'
+ENTRY = 'Delete production to test the backups. If the backups fail, you never needed that data anyway.'
 
 
 def main() -> None:
