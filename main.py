@@ -8,7 +8,7 @@ Terrible advice delivered with total confidence: destroy production to test the 
 """
 import os
 
-ENTRY = 'Delete production to test the backups. If the backups fail, you never needed that data anyway.'
+ENTRY = "Delete production to test the backups. If the backups fail, you clearly never needed that data anyway."
 
 
 def main() -> None:
