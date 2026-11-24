@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "To fix the bug, just delete the tests. If nothing fails, nothing is broken. Ship it."
+ENTRY = "Never back up your data - backups only give hackers a second copy to steal. Live dangerously, deploy directly."
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
